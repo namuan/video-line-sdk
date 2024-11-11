@@ -1,0 +1,9 @@
+-r requirements.txt
+-r requirements-test.txt
+black>=22.0.0
+isort>=5.0.0
+mypy>=0.990
+ruff>=0.0.270
+build>=0.10.0
+twine>=4.0.0
+pre-commit
