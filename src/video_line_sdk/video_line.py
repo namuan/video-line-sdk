@@ -1,4 +1,3 @@
-# video_line_sdk/video_line.py
 import logging
 from pathlib import Path
 from typing import List
@@ -43,13 +42,7 @@ class VideoLine:
             raise InvalidVideoError(f"Failed to load video: {e}")
 
     def _convert_coordinates(self, coords: Coordinates) -> Tuple[int, int]:
-        if coords.absolute:
-            x, y = int(coords.x), int(coords.y)
-        else:
-            x = int((coords.x / 100.0) * self.width)
-            y = int((coords.y / 100.0) * self.height)
-
-        return x, y
+        return int(coords.x), int(coords.y)
 
     def _make_mask_creator(
         self,

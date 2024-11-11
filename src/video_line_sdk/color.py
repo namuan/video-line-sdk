@@ -1,4 +1,3 @@
-# video_line_sdk/color.py
 from typing import Union
 
 

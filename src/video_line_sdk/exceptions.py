@@ -1,4 +1,3 @@
-# video_line_sdk/exceptions.py
 class VideoLineError(Exception):
     """Base exception for VideoLine SDK"""
 

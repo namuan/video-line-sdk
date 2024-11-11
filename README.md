@@ -5,7 +5,6 @@ A Python SDK for drawing animated lines on videos.
 ## Features
 
 - Draw animated lines on videos
-- Support for absolute and percentage-based coordinates
 - Customizable line colors, thickness, and animation duration
 
 ## Installation
@@ -67,8 +66,8 @@ video.draw_line(
     start_time=0.0,
     draw_duration=1.0,
 ).draw_line(
-    start=Coordinates(50, 0, absolute=True),
-    end=Coordinates(50, 100, absolute=True),
+    start=Coordinates(50, 0),
+    end=Coordinates(50, 100),
     color=Color("#00FF00"),
     start_time=1.0,
     draw_duration=1.0,

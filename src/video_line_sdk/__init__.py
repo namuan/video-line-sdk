@@ -5,7 +5,7 @@ from .exceptions import VideoLineError
 from .exceptions import VideoNotFoundError
 from .video_line import VideoLine
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "VideoLine",
