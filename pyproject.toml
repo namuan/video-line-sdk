@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "video-line-sdk"
-version = "0.1.2"
+dynamic = ["version"]
 description = "A SDK for drawing animated lines on videos"
 authors = [{ name = "Namuan", email = "namuan@deskriders.dev" }]
 keywords = ["video", "animation", "drawing", "moviepy"]
@@ -29,6 +29,9 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/namuan/video-line-sdk"
+
+[tool.setuptools.dynamic]
+version = {attr = "video_line_sdk.__version__"}
 
 [project.optional-dependencies]
 dev = [
