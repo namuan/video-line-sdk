@@ -2,6 +2,8 @@
 
 A Python SDK for drawing animated lines on videos.
 
+![](docs/sample.gif)
+
 ## Features
 
 - Draw animated lines on videos
