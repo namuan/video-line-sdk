@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "video-line-sdk"
 dynamic = ["version"]
-description = "A SDK for drawing animated lines on videos"
+description = "Draw animated lines on videos using moviepy"
 authors = [{ name = "Namuan", email = "namuan@deskriders.dev" }]
 keywords = ["video", "animation", "drawing", "moviepy"]
 license = { file = "LICENSE" }
